@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "age": 45,
+    "contact": "123-456-7890",
+    "appointments": [
+      {
+        "date": "2024-01-15",
+        "doctor": "Dr. Smith",
+        "notes": "Annual physical check-up"
+      },
+      {
+        "date": "2024-03-10",
+        "doctor": "Dr. Brown",
+        "notes": "Follow-up on blood pressure"
+      }
+    ],
+    "medicalHistory": [
+      {
+        "date": "2023-11-01",
+        "condition": "Hypertension",
+        "doctor": "Dr. Brown"
+      },
+      { "date": "2022-06-15", "condition": "Flu", "doctor": "Dr. Smith" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "age": 37,
+    "contact": "987-654-3210",
+    "appointments": [
+      {
+        "date": "2024-02-20",
+        "doctor": "Dr. Taylor",
+        "notes": "Back pain consultation"
+      }
+    ],
+    "medicalHistory": [
+      { "date": "2023-08-10", "condition": "Migraine", "doctor": "Dr. Taylor" },
+      { "date": "2022-12-22", "condition": "Anemia", "doctor": "Dr. Carter" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "age": 29,
+    "contact": "456-789-0123",
+    "appointments": [
+      {
+        "date": "2024-04-05",
+        "doctor": "Dr. Lee",
+        "notes": "Skin rash treatment"
+      }
+    ],
+    "medicalHistory": [
+      { "date": "2023-05-14", "condition": "Allergy", "doctor": "Dr. Lee" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Robert Brown",
+    "age": 50,
+    "contact": "321-654-9870",
+    "appointments": [
+      {
+        "date": "2024-03-15",
+        "doctor": "Dr. Green",
+        "notes": "Diabetes management"
+      },
+      {
+        "date": "2024-01-10",
+        "doctor": "Dr. Green",
+        "notes": "Routine follow-up"
+      }
+    ],
+    "medicalHistory": [
+      {
+        "date": "2023-03-12",
+        "condition": "Diabetes Type 2",
+        "doctor": "Dr. Green"
+      },
+      { "date": "2021-09-18", "condition": "Obesity", "doctor": "Dr. Green" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "age": 62,
+    "contact": "789-012-3456",
+    "appointments": [
+      {
+        "date": "2024-02-10",
+        "doctor": "Dr. White",
+        "notes": "Arthritis treatment"
+      }
+    ],
+    "medicalHistory": [
+      { "date": "2023-02-20", "condition": "Arthritis", "doctor": "Dr. White" },
+      {
+        "date": "2020-12-12",
+        "condition": "High cholesterol",
+        "doctor": "Dr. Brown"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Michael Williams",
+    "age": 40,
+    "contact": "654-321-0987",
+    "appointments": [
+      {
+        "date": "2024-05-01",
+        "doctor": "Dr. Adams",
+        "notes": "Annual dental cleaning"
+      }
+    ],
+    "medicalHistory": [
+      {
+        "date": "2023-10-05",
+        "condition": "Tooth decay",
+        "doctor": "Dr. Adams"
+      },
+      {
+        "date": "2021-06-25",
+        "condition": "Gum infection",
+        "doctor": "Dr. Adams"
+      }
+    ]
+  }
+]
