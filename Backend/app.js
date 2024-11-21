@@ -21,6 +21,17 @@ app.get("/patients", async (req, res) => {
 
   res.status(200).json({ patients: patientData });
 });
+app.get("/patient/:id", async (req, res) => {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+  const fileContent = await fs.readFile("./data/patient.json");
+  const patientData = JSON.parse(fileContent);
+  const { id } = req.params;
+  const patient = patientData.find((patient) => patient.id === id);
+  if (!patient) {
+    return res.status(404).json({ message: "Patient Not Found." });
+  }
+  res.status(200).json({ patient });
+});
 
 app.use((req, res, next) => {
   if (req.method === "OPTIONS") {
