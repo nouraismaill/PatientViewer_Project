@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, input } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Patients } from '../patient.model';
 
 @Component({
   selector: 'app-patient',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterLinkActive, CommonModule],
+  styleUrl: './patient.component.css',
   templateUrl: './patient.component.html',
-  styles: ``
 })
 export class PatientComponent {
-
+  patient = input.required<Patients>();
 }
