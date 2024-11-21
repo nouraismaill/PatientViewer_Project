@@ -1,1 +1,16 @@
-<p>patients workfes!</p>
+@if(isFetching() && !error()){
+<p>Fetching Patient...</p>
+} @if(error()){
+<p class="fallback-text">{{ error() }}</p>
+} @if(patients()){
+
+<ul
+  class="list-none my-0 lg:ml-[-100px] p-0 flex gap-2 overflow-auto flex-col ml-[10px] mr-10"
+>
+  @for(patient of patients();track patient.id ){
+  <li class="mb-2">
+    <app-patient [patient]="patient" />
+  </li>
+  }
+</ul>
+}
