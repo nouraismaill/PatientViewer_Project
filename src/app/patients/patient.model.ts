@@ -1,6 +1,18 @@
 export interface Patients {
-  id: number;
+  id: string;
   name: string;
   age: number;
-  phoneNumber: number;
+  contact: number;
+  appointments: Appointment[];
+  medicalHistory: MedicalHistory[];
+}
+export interface Appointment {
+  date: string;
+  doctor: string;
+  notes: string;
+}
+
+export interface MedicalHistory {
+  date: string;
+  doctor: string;
 }
